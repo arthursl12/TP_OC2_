@@ -1,4 +1,14 @@
-# Instruções de Compilação/Execução e Testes
+# Trabalho Prático - Organização de Computadores 2
+DCC/UFMG - 2021/1 - Prof. Omar
+
+## Integrantes
+* Arthur Souto Lima
+* Pablo Correa Costa
+* Hilário Corrêa da Silva Neto
+* Victor Vieira Brito Amaral Pessoa
+
+
+## Instruções de Compilação/Execução e Testes
 * Para compilar o processador e as testbenches execute o script *build.sh*. Entre na pasta raiz do processador desejado e o execute: 
 
         bash build.sh
