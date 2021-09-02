@@ -247,7 +247,7 @@ module Issue (
             if (id_iss_opcode === 7'b0100011 || id_iss_opcode === 7'b0000011) begin
                 // Store, load
                 functional_unit <= 2'b01;
-            end else if (id_iss_opcode === 7'b0000001 && id_iss_funct7 === 7'b0110011) begin
+            end else if (id_iss_opcode === 7'b0110011 && id_iss_funct7 === 7'b0000001) begin
                 // Mult
                 functional_unit <= 2'b10;
             end else begin
