@@ -29,7 +29,6 @@ module Riscv_TB;
         addi x10, x5, 7
         addi x11, x10, 8
         add x12, x10, x11
-        addi x10, x0, 3 
         
         */
         // Coloca as instruções do arquivo na estrutura de memória de instruções
